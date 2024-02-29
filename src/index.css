@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .ly-mobile-initial,
+    .ly-desktop,
+    .ly-tablet {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('./assets/mobile/shape1.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+        z-index: 1;
+        display: flex;
+    }
+
+    .ly-mobile-initial {
+        background-image:
+            url('./assets/mobile/shape1.png'),
+            url('./assets/mobile/shape2.svg');
+        background-position: top left, center right;
+    }
+
+    .ly-mobile-pages-1 {
+        background-image:
+            url('./assets/mobile/shape1.png'),
+            url('./assets/mobile/shape3.svg');
+        background-position: top left, left bottom 25%;
+    }
+
+
+    .ly-desktop {
+        background-image:
+            url('./assets/desktop/shape1.svg'),
+            url('./assets/desktop/shape2.svg');
+        background-position: top left, center right;
+    }
+
+    .ly-tablet {
+        background-image: url('./assets/desktop/shape1.svg');
+    }
+
+    .btn {
+        @apply bg-tertiary text-base font-600 p-2 rounded-md w-[180px] md:w-[360px] text-center hover:bg-pink-light hover:animate-pulse;
+    }
+}
