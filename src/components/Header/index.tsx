@@ -3,10 +3,12 @@ import { HomeIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 
 import logo from '../../assets/logo-white.svg';
 
+import Layout from "./Layout";
+
 const Header = () => {
     return (
-        <>
-            <nav className="flex gap-10 pt-8 items-center z-50 relative">
+        <Layout>
+            <nav className="flex gap-10 pt-8 items-center relative z-500">
                 <div>
                     <img
                         src={logo}
@@ -22,7 +24,7 @@ const Header = () => {
                 </Link>
 
             </nav>
-        </>
+        </Layout>
     )
 }
 export default Header;

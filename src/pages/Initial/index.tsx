@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo-white.svg';
 import catDog from '../../assets/cat-dog.svg';
@@ -12,7 +11,7 @@ const Initial = () => {
 
     return (
         <div
-            className="ly-mobile-initial flex flex-col justify-center items-center bg-primary w-full text-gray-light -mt-[65px] -mb-[55px] relative z-10 md:ly-desktop"
+            className="ly-initial-mobile md:ly-pages-desktop md:ly-desktop flex flex-col justify-center items-center bg-primary text-gray-light -mt-[300px]  h-screen md:-mt-[470px] -mb-[52px] md:-mb-[56px] relative -z-[0]"
         >
             <img
                 src={logo}

@@ -3,46 +3,50 @@
 @tailwind utilities;
 
 @layer components {
-
-    .ly-mobile-initial,
-    .ly-desktop,
-    .ly-tablet {
-        width: 100vw;
-        height: 100vh;
-        background-image: url('./assets/mobile/shape1.png');
-        background-position: top left;
+    .ly-header-mobile,
+    .ly-header-desktop {
+        background-position: left top;
         background-repeat: no-repeat;
-        z-index: 1;
-        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
     }
-
-    .ly-mobile-initial {
-        background-image:
-            url('./assets/mobile/shape1.png'),
-            url('./assets/mobile/shape2.svg');
-        background-position: top left, center right;
+    .ly-header-mobile {
+        background-image: url('./assets/mobile/shape1.svg');
+        height: 296px;
+        width: 352px;
     }
-
-    .ly-mobile-pages-1 {
-        background-image:
-            url('./assets/mobile/shape1.png'),
-            url('./assets/mobile/shape3.svg');
-        background-position: top left, left bottom 25%;
-    }
-
-
-    .ly-desktop {
-        background-image:
-            url('./assets/desktop/shape1.svg'),
-            url('./assets/desktop/shape2.svg');
-        background-position: top left, center right;
-    }
-
-    .ly-tablet {
+    .ly-header-desktop {
         background-image: url('./assets/desktop/shape1.svg');
+        height: 470px;
+        width: 560px;
     }
+
+    .ly-initial-mobile,
+    .ly-pages-desktop {
+        background-position: right center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+    }
+    .ly-initial-mobile {
+        background-image: url('./assets/mobile/shape2.svg');
+    }
+    .ly-pages-mobile {
+        background-image: url('./assets/mobile/shape3.svg');
+        background-position: left bottom 150px;
+        background-repeat: no-repeat;
+    }
+    .ly-pages-desktop {
+        background-image: url('./assets/desktop/shape2.svg');;
+    }
+
 
     .btn {
         @apply bg-tertiary text-base font-600 p-2 rounded-md w-[180px] md:w-[360px] text-center hover:bg-pink-light hover:animate-pulse;
+    }
+
+    .form-input {
+        @apply bg-gray-light text-center p-2 rounded-md outline-none shadow-md w-full;
     }
 }
