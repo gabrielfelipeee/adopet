@@ -6,7 +6,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <header className="ly-header-mobile md:ly-header-desktop">
+        <header className="ly-header-mobile relative md:ly-header-desktop">
             {children}
         </header>
     )

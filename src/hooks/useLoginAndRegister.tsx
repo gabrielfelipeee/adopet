@@ -1,12 +1,12 @@
 import { useContext } from "react"
-import { LoginContext } from "../context/LoginContext";
+import { LoginContext } from "../context/LoginAndRegisterContext";
 
 import logoBlue from '../assets/logo-blue.svg';
 import paws from '../assets/paws.svg';
 
 
 
-const useLogin = () => {
+const useLoginAndRegister = () => {
     const context = useContext(LoginContext);
 
     if (!context) {
@@ -34,4 +34,4 @@ const useLogin = () => {
         paws
     }
 }
-export default useLogin;
+export default useLoginAndRegister;

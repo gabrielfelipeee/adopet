@@ -8,7 +8,7 @@ import Layout from "./Layout";
 const Header = () => {
     return (
         <Layout>
-            <nav className="flex gap-10 pt-8 items-center relative z-500">
+            <nav className="flex gap-10 pt-8 items-center">
                 <div>
                     <img
                         src={logo}
@@ -16,7 +16,7 @@ const Header = () => {
                         className="hidden md:block w-[124px] ml-10"
                     />
                 </div>
-                <Link to='/' className="block">
+                <Link to='/'>
                     <HomeIcon className="h-8 text-white" />
                 </Link>
                 <Link to='/mensagem'>

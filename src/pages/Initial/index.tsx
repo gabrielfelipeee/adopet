@@ -11,7 +11,7 @@ const Initial = () => {
 
     return (
         <div
-            className="ly-initial-mobile md:ly-pages-desktop md:ly-desktop flex flex-col justify-center items-center bg-primary text-gray-light -mt-[300px]  h-screen md:-mt-[470px] -mb-[52px] md:-mb-[56px] relative -z-[0]"
+            className="ly-initial-mobile md:ly-pages-desktop md:ly-desktop flex flex-col justify-center items-center bg-primary text-gray-light -mt-[300px]  h-screen md:-mt-[470px] -mb-[52px] md:-mb-[56px]"
         >
             <img
                 src={logo}

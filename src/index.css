@@ -9,7 +9,7 @@
         background-repeat: no-repeat;
         position: sticky;
         top: 0;
-        z-index: 2;
+        z-index: 1;
     }
     .ly-header-mobile {
         background-image: url('./assets/mobile/shape1.svg');
@@ -19,28 +19,27 @@
     .ly-header-desktop {
         background-image: url('./assets/desktop/shape1.svg');
         height: 470px;
-        width: 560px;
+        width: 100vw;
     }
 
     .ly-initial-mobile,
     .ly-pages-desktop {
-        background-position: right center;
         background-repeat: no-repeat;
         position: relative;
-        z-index: 1;
     }
     .ly-initial-mobile {
         background-image: url('./assets/mobile/shape2.svg');
+        background-position: right center;
     }
     .ly-pages-mobile {
         background-image: url('./assets/mobile/shape3.svg');
-        background-position: left bottom 150px;
+        background-position: left bottom 80px;
         background-repeat: no-repeat;
     }
     .ly-pages-desktop {
-        background-image: url('./assets/desktop/shape2.svg');;
+        background-image: url('./assets/desktop/shape2.svg');
+        background-position: right bottom 90px;
     }
-
 
     .btn {
         @apply bg-tertiary text-base font-600 p-2 rounded-md w-[180px] md:w-[360px] text-center hover:bg-pink-light hover:animate-pulse;
