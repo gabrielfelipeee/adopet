@@ -17,19 +17,13 @@ const useLoginAndRegister = () => {
     const {
         password,
         setPassword,
-        showPassword,
-        setShowPassword,
     } = context;
 
-    const togglePasswordVisibility = () => {
-        setShowPassword(!showPassword);
-    };
+
 
     return {
-        togglePasswordVisibility,
         password,
         setPassword,
-        showPassword,
         logoBlue,
         paws
     }

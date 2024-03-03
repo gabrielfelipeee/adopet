@@ -1,0 +1,58 @@
+{
+    "pets": {
+        "dunga": {
+            "age": "2 anos",
+            "size": "Porte pequeno",
+            "temperament": "Calmo e educado",
+            "city": "Rio de Janeiro (RJ)"
+        },
+        "felícia": {
+            "age": "3 meses",
+            "size": "Porte pequeno",
+            "temperament": "Ativa e carinhosa",
+            "city": "Nova Iguaçu (RJ)"
+        },
+        "sirius": {
+            "age": "6 meses",
+            "size": "Porte grande",
+            "temperament": "Ativo e educado",
+            "city": "Duque de Caxias (RJ)"
+        },
+        "fiona": {
+            "age": "3 anos",
+            "size": "Porte pequeno",
+            "temperament": "Calma e educada",
+            "city": "São Gonçalo (RJ)"
+        },
+        "sid": {
+            "age": "8  meses",
+            "size": "Porte médio/grande",
+            "temperament": "Brincalhão e amável",
+            "city": "Rio de Janeiro (RJ)"
+        },
+        "yoda": {
+            "age": "1 ano",
+            "size": "Porte médio",
+            "temperament": "Ativo e carinhoso",
+            "city": "Nova Iguaçu (RJ)"
+        },
+        "lua": {
+            "age": "6 meses",
+            "size": "Porte médio",
+            "temperament": "Ativa e carinhosa",
+            "city": "Duque de Caxias (RJ)"
+        },
+        "amora": {
+            "age": "45 dias",
+            "size": "Porte grande",
+            "temperament": "Calma e carinhosa",
+            "city": "São Gonçalo (RJ)"
+        },
+        "zelda": {
+            "age": "5 meses",
+            "size": "Porte médio",
+            "temperament": "Ativa e amável",
+            "city": "Rio de Janeiro (RJ)"
+        }
+    }
+}

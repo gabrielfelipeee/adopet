@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Initial from "./pages/Initial";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
       <LoginProvider>
         <WindowWidthProvider>
           <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/inicio' element={<Initial />} />
             <Route path='/login' element={<Login />} />
             <Route path='/cadastro' element={<Register />} />
