@@ -7,7 +7,7 @@ O projeto <strong>Adopet</strong> é uma simulação de uma página de adoção 
 | -------------  | --- |
 | :sparkles: Nome        | **Adopet**
 | :label: Tecnologias | TypeScript, TailwindCSS, Context API, json-server
-| :rocket: URL         |
+| :rocket: URL         | https://adopet-drab.vercel.app/
 | :fire: Desafio     | aluraChallenge Adopet
 ---
 
