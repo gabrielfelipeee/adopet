@@ -33,7 +33,7 @@ const InputPassword = (
                 required
                 value={value}
                 onChange={onChange}
-                className="form-input"
+                className="form-input bg-gray-light text-center"
             />
             <div
                 className="absolute top-[32px] right-4 cursor-pointer"

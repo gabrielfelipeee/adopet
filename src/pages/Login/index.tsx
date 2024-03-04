@@ -31,7 +31,7 @@ const Login = () => {
                         type="email"
                         placeholder="Insira seu email"
                         required
-                        className="form-input relative z-10"
+                        className="form-input bg-gray-light text-center"
                     />
                 </label>
                 <InputPassword
@@ -47,7 +47,7 @@ const Login = () => {
                 >
                     Esqueci minha senha.
                 </Link>
-                <button className="btn m-auto text-gray-light">Entrar</button>
+                <button type="submit" className="btn">Entrar</button>
             </form>
         </div>
     );

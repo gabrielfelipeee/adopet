@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 @layer components {
+
     .ly-header-mobile,
     .ly-header-desktop {
         background-position: left top;
@@ -11,11 +19,13 @@
         top: 0;
         z-index: 1;
     }
+
     .ly-header-mobile {
         background-image: url('./assets/mobile/shape1.svg');
         height: 296px;
         width: 352px;
     }
+
     .ly-header-desktop {
         background-image: url('./assets/desktop/shape1.svg');
         height: 470px;
@@ -27,25 +37,36 @@
         background-repeat: no-repeat;
         position: relative;
     }
+
     .ly-initial-mobile {
         background-image: url('./assets/mobile/shape2.svg');
         background-position: right center;
     }
+
     .ly-pages-mobile {
         background-image: url('./assets/mobile/shape3.svg');
         background-position: left bottom 80px;
         background-repeat: no-repeat;
     }
+
     .ly-pages-desktop {
         background-image: url('./assets/desktop/shape2.svg');
         background-position: right bottom 90px;
     }
 
     .btn {
-        @apply bg-tertiary text-base font-600 p-2 rounded-md w-[180px] md:w-[360px] text-center hover:bg-pink-light hover:animate-pulse;
+        @apply bg-tertiary text-base font-600 text-gray-light p-2 rounded-md w-[190px] md:w-[360px] text-center hover:bg-pink-light hover:animate-pulse m-auto;
+    }
+
+    .form {
+        @apply max-w-[552px] bg-gray-light rounded-md flex flex-col gap-6 px-4
+        py-8 mx-4;
+    }
+    .form-label {
+        @apply text-base font-600 text-primary;
     }
 
     .form-input {
-        @apply bg-gray-light text-center p-2 rounded-md outline-none shadow-md w-full;
+        @apply text-base font-400 text-gray-dark p-2 rounded-md outline-none shadow-md w-full relative z-10;
     }
 }

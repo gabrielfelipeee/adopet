@@ -18,7 +18,7 @@ const Initial = () => {
                 alt="Logo do Adopet"
                 className="w-[180px] -mt-40 mb-4 md:w-[260px] md:-mt-24 lg:-mt-96"
             />
-            <h2 className="text-2xl font-500 my-4">Boas-vindas</h2>
+            <h2 className="text-xl font-500 my-4">Boas-vindas</h2>
             <Paragraph isMobile={isMobile} />
             <div className="flex flex-col items-center justify-center gap-5">
                 <Link
@@ -36,7 +36,7 @@ const Initial = () => {
             </div>
             <img
                 src={catDog}
-                className="w-[200px] lg:w-[346px] lg:bottom-8 absolute bottom-11"
+                className="w-[200px] lg:w-[325px] lg:bottom-8 absolute bottom-10"
             />
         </div>
     )

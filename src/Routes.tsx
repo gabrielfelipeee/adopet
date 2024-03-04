@@ -10,6 +10,8 @@ import Initial from "./pages/Initial";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
+import Message from "./pages/Message";
+import Profile from "./pages/Profile";
 
 function AppRoutes() {
   return (
@@ -22,6 +24,8 @@ function AppRoutes() {
             <Route path='/inicio' element={<Initial />} />
             <Route path='/login' element={<Login />} />
             <Route path='/cadastro' element={<Register />} />
+            <Route path='/mensagem' element={<Message />} />
+            <Route path='/perfil' element={<Profile />} />
           </Routes>
         </WindowWidthProvider>
       </LoginProvider>

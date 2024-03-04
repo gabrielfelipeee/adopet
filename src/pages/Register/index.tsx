@@ -28,7 +28,7 @@ const Register = () => {
                         type="text"
                         placeholder="Digite seu nome completo"
                         required
-                        className="form-input relative z-10"
+                        className="form-input bg-gray-light text-center"
                     />
                 </label>
                 <label className="flex flex-col items-center">
@@ -37,7 +37,7 @@ const Register = () => {
                         type="email"
                         placeholder="Escolha seu melhor email"
                         required
-                        className="form-input"
+                        className="form-input bg-gray-light text-center"
                     />
                 </label>
 
@@ -55,7 +55,7 @@ const Register = () => {
                 />
                 <button
                     type="submit"
-                    className="btn text-gray-light m-auto"
+                    className="btn"
                 >
                     Cadastrar
                 </button>
