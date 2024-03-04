@@ -32,7 +32,7 @@ const Profile = () => {
                         placeholder="Insira seu nome completo"
                         required
                         value="Joana Magalhães"
-                        onChange={event => {}}
+                        //onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -43,7 +43,7 @@ const Profile = () => {
                         placeholder="(00) 00000-0000"
                         required
                         value="(00) 00000-0000"
-                        onChange={event => {}}
+                        //onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -54,7 +54,7 @@ const Profile = () => {
                         placeholder="Sua cidade"
                         required
                         value="São Paulo"
-                        onChange={event => {}}
+                        //onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -64,7 +64,7 @@ const Profile = () => {
                         placeholder="Escreva sua mensagem."
                         required
                         value="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."
-                        onChange={event => {}}
+                        //onChange={event => {}}
                     />
                 </label>
                 <button type="submit" className="btn m-auto">Salvar</button>
