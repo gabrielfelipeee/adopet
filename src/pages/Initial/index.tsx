@@ -28,7 +28,7 @@ const Initial = () => {
                     Já tenho conta
                 </Link>
                 <Link
-                    to='/cadastrar'
+                    to='/cadastro'
                     className="btn"
                 >
                     Quero me cadastrar

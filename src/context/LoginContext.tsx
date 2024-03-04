@@ -4,6 +4,8 @@ import { createContext, useState, ReactNode } from "react";
 interface LoginContextType {
     password: string,
     setPassword: React.Dispatch<React.SetStateAction<string>>
+    email: string,
+    setEmail: React.Dispatch<React.SetStateAction<string>>
 }
 
 interface LoginProviderProps {
@@ -15,6 +17,7 @@ const LoginContext = createContext<LoginContextType | null>(null);
 LoginContext.displayName = "Login";
 
 const LoginProvider = ({ children }: LoginProviderProps) => {
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
     return (
@@ -22,6 +25,8 @@ const LoginProvider = ({ children }: LoginProviderProps) => {
             {
                 password,
                 setPassword,
+                email,
+                setEmail
             }
         }
         >

@@ -36,7 +36,7 @@ const InputPassword = (
                 className="form-input bg-gray-light text-center"
             />
             <div
-                className="absolute top-[32px] right-4 cursor-pointer"
+                className="absolute top-[32px] right-4 cursor-pointer z-10"
                 onClick={togglePasswordVisibility}
             >
                 {

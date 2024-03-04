@@ -12,7 +12,7 @@ const Profile = () => {
                 <h2 className="font-600 text-xl text-center text-gray-dark">Perfil</h2>
                 <h3 className="form-label">Foto</h3>
                 <img
-                    src="https://placehold.co/400"
+                    src="https://placehold.co/96"
                     alt="Foto de perfil"
                     className="w-24 rounded-full m-auto"
                 />
@@ -32,6 +32,7 @@ const Profile = () => {
                         placeholder="Insira seu nome completo"
                         required
                         value="Joana Magalhães"
+                        onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -42,6 +43,7 @@ const Profile = () => {
                         placeholder="(00) 00000-0000"
                         required
                         value="(00) 00000-0000"
+                        onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -52,6 +54,7 @@ const Profile = () => {
                         placeholder="Sua cidade"
                         required
                         value="São Paulo"
+                        onChange={event => {}}
                     />
                 </label>
                 <label className="form-label">
@@ -61,6 +64,7 @@ const Profile = () => {
                         placeholder="Escreva sua mensagem."
                         required
                         value="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."
+                        onChange={event => {}}
                     />
                 </label>
                 <button type="submit" className="btn m-auto">Salvar</button>

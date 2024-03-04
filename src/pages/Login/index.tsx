@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
-import useLoginAndRegister from '../../hooks/useLoginAndRegister';
+import useLogin from '../../hooks/useLogin';
 
 import InputPassword from '../../components/InputPassword';
-
 
 const Login = () => {
     const {
@@ -10,7 +9,10 @@ const Login = () => {
         logoBlue,
         password,
         setPassword,
-    } = useLoginAndRegister();
+        email,
+        setEmail,
+        login
+    } = useLogin();
 
     return (
         <div
@@ -23,6 +25,7 @@ const Login = () => {
             </span>
 
             <form
+                onSubmit={login}
                 className="w-[80%] max-w-[550px] text-gray-dark flex flex-col gap-6"
             >
                 <label className="flex flex-col items-center">
@@ -32,6 +35,8 @@ const Login = () => {
                         placeholder="Insira seu email"
                         required
                         className="form-input bg-gray-light text-center"
+                        value={email}
+                        onChange={event => setEmail(event.target.value)}
                     />
                 </label>
                 <InputPassword
