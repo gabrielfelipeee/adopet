@@ -6,7 +6,7 @@ interface ParagraphProps {
 const Paragraph = ({ isMobile }: ParagraphProps) => {
     return (
         <p
-            className={`${isMobile ? 'w-[54%]' : 'w-[43%]'} max-w-[400px] text-base font-400 text-center mb-8 md:text-lg`}
+            className={`${isMobile ? 'w-[61%]' : 'w-[43%]'} max-w-[400px] text-base font-400 text-center mb-8 md:text-lg`}
         >
             {isMobile
                 ?
