@@ -33,6 +33,16 @@ const Initial = () => {
                 >
                     Quero me cadastrar
                 </Link>
+
+                <Link
+                    to='/'
+                    className="text-secondary hover:underline"
+                    onClick={() => {
+                        sessionStorage.setItem('email', 'teste@gmail.com');
+                    }}
+                >
+                    Entrar sem conta
+                </Link>
             </div>
             <img
                 src={catDog}

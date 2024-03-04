@@ -68,13 +68,3 @@ const Header = () => {
     )
 }
 export default Header;
-
-/*
-                        <Link
-                            to='/perfil'
-                            className="text-primary fixed right-10"
-                        >
-                            <UserCircleIcon className="h-10" />
-                        </Link>
-
-*/

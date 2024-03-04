@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# AluraChallenge Front-End - Adopet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto <strong>Adopet</strong> é uma simulação de uma página de adoção de animais.
 
-Currently, two official plugins are available:
+---
+| :placard:  Vitrine.Dev | https://cursos.alura.com.br/vitrinedev/gabrielfelipeee
+| -------------  | --- |
+| :sparkles: Nome        | **Adopet**
+| :label: Tecnologias | TypeScript, TailwindCSS, Context API, json-server
+| :rocket: URL         |
+| :fire: Desafio     | aluraChallenge Adopet
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias utilizadas:
+<div>
+    <img width="32px" alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+    <img width="32px"  alt="React" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg">
+    <img width="32px"  alt="Tailwindcss" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg">
+</div>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :thinking: Sobre o Desafio
 
-- Configure the top-level `parserOptions` property like this:
+O projeto proposto pela Alura, consiste em um desafio que busca simular um ambiente de trabalho real. A equipe da Alura nos forneceu um design já elaborado no FIGMA, além de um controle no TRELLO para gerenciar o projeto.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Durante as 4 semanas de duração do desafio, os instrutores estão disponíveis para nos fornecer dicas e orientações sobre como realizar as atividades propostas de maneira mais eficiente. Eles também recomendam um plano de estudos que podemos seguir para nos prepararmos adequadamente para os desafios que serão apresentados.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Participando desse projeto, pode-se vivenciar de forma prática as etapas de um projeto de desenvolvimento de software, desde a elaboração do design até a implementação das funcionalidades.
+
+<br>
+
+## :mag: Preview do projeto:
+
+<div align="center">
+<h4 align="center">Mobile<h4>
+    <img  width="375px" alt="mobile preview" src="public/preview/mobile.svg">
+</div>
+
+<br>
+
+<h4 align="center">Desktop<h4>
+<div align="center" max-width="500px">
+
+![](public/preview/desktop.svg#vitrinedev)
+
+</div>
+<br>
+
+
+
+<hr>
+
+:coffee: Desenvolvido por <a href="https://github.com/gabrielfelipeee" target="_blank">Gabriel Felipe</a>!
