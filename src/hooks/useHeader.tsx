@@ -24,6 +24,16 @@ const useHeader = () => {
 
 
     useEffect(() => {
+        window.onunload = function () {
+            localStorage.setItem('reloadPage', 'true');
+        }
+        window.onload = function () {
+            var reloadPage = localStorage.getItem('reloadPage');
+            if (reloadPage === 'true') {
+                navigate('/');
+                localStorage.removeItem('reloadPage');
+            }
+        }
         if (location.pathname === '/inicio' || location.pathname === '/login' || location.pathname === '/cadastro') {
             sessionStorage.removeItem('email');
             setShowHome(false);
@@ -34,6 +44,8 @@ const useHeader = () => {
                 navigate('/inicio');
             }
         }
+
+
     }, [location]);
 
     const toggleMenu = () => {
