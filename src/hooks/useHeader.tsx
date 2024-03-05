@@ -43,7 +43,7 @@ const useHeader = () => {
     const logout = () => {
         sessionStorage.removeItem('email');
         setDisplayMenu("none");
-        navigate('/inicio');
+        navigate('/');
     }
 
 
